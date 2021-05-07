@@ -15,9 +15,40 @@
     background-color: black;
     flex-grow: 1;
     min-height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
+.cam {
+    width: 180px;
+    height: 80px;
+    margin: 0 5px 20px;
+    border:  1px solid white;
+    background-image: url(https://images.wired.it/wp-content/uploads/2019/07/03123013/Zio-Paperone_Scomparso.jpg);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+.cam .cam-name {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+/* leyout nav  */
 
 .nav {
     background-color: #333;
@@ -25,24 +56,62 @@
     height: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
 }
 
 .nav ul {
     list-style: none;
     font-size: 14px;
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
 }
 
 .my-option, .leave {
-    min-width: 200px;
-    border: 1px solid white;
+    min-width: 100px;
+    padding: 0 10px;
 }
 
 .condivision-option {
-    flex-grow: 1;
-    border: 1px solid white;
-
     min-width: 300px;
-
 }
+
+.leave {
+    text-align: right;
+    font-size: 20px;
+    background-color: gray;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+/* leyout bottoni  */
+
+.nav li {
+    margin: 0 10px;
+    font-size: 26px;
+}
+
+.my-option a, .condivision-option a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.leave a {
+    text-decoration: none;
+    color: red;
+}
+
+li div {
+    font-size: 10px;
+}
+
+.nav .icon-special {
+    font-size: 10px;
+    margin: 0 5px;
+}
+
+
