@@ -8,13 +8,38 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
+
+.speker-view {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    padding: 5px 10px;
+}
+
+.speker-view div {
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: #333;
+    padding: 5px;
+}
+
+.speker-view div:first-child i {
+    margin-right: 5px;
+}
+
+
+
+/* sezione web-cam  */
 
 .web-cam {
     background-color: black;
     flex-grow: 1;
     min-height: 400px;
-    padding: 20px;
+    padding: 50px 20px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,7 +48,7 @@
 
 .cam {
     width: 180px;
-    height: 80px;
+    height: 100px;
     margin: 0 3px;
     background-image: url(https://images.wired.it/wp-content/uploads/2019/07/03123013/Zio-Paperone_Scomparso.jpg);
     background-position: center;
@@ -39,6 +64,10 @@
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.cam .cam-name i {
+    margin-right: 5px;
 }
 
 /* leyout nav  */
