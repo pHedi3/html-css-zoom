@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.web-cam {
+    background-color: black;
+    flex-grow: 1;
+    min-height: 400px;
+
+}
+
+
+.nav {
+    background-color: #333;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.nav ul {
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+}
+
+.my-option, .leave {
+    min-width: 200px;
+    border: 1px solid white;
+}
+
+.condivision-option {
+    flex-grow: 1;
+    border: 1px solid white;
+
+    min-width: 300px;
+
+}
