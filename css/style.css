@@ -10,7 +10,6 @@
     flex-direction: column;
 }
 
-
 .web-cam {
     background-color: black;
     flex-grow: 1;
@@ -25,8 +24,7 @@
 .cam {
     width: 180px;
     height: 80px;
-    margin: 0 3px 20px;
-    border:  1px solid white;
+    margin: 0 3px;
     background-image: url(https://images.wired.it/wp-content/uploads/2019/07/03123013/Zio-Paperone_Scomparso.jpg);
     background-position: center;
     background-size: contain;
@@ -42,11 +40,6 @@
     bottom: 0;
     left: 0;
 }
-
-
-
-
-
 
 /* leyout nav  */
 
@@ -68,19 +61,14 @@
 }
 
 .my-option, .leave {
-    min-width: 100px;
     padding: 0 10px;
-}
-
-.condivision-option {
-    min-width: 300px;
 }
 
 .leave {
     text-align: right;
     font-size: 20px;
     background-color: gray;
-    height: 80px;
+    align-self: stretch;
     display: flex;
     justify-content: center;
     align-items: center;
